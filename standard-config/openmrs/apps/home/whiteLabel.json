@@ -1,6 +1,6 @@
 {
 	"homePage": {
-		"header_text": "<b>WELCOME TO<br />BAHMNI EMR & HOSPITAL SERVICE",
+		"header_text": "<b>WELCOME TO<br />BAHMNI EMR & HOSPITAL SERVICE TEST CHANGE",
 		"logo": "/bahmni_config/openmrs/apps/home/logo.png", 
 		"title_text": " "
 	},
