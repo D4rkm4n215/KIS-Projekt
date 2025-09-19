@@ -23,7 +23,6 @@
         "visitUuid"
     ],
     "config": {
-        "hideFormName": true,
         "hideConditions": false,
         "enableRadiologyOrderOptions":["Urgent","NeedsPrint"],
         "enableLabOrderOptions":["Urgent", "NeedsPrint"],

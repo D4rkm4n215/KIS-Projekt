@@ -49,7 +49,6 @@
                     "landHolding": 2
                 }
             },
-            "hideFormName": true,
             "addressHierarchy": {
                 "showAddressFieldsTopDown": false,
                 "strictAutocompleteFromLevel": "stateProvince"
