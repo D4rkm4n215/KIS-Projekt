@@ -42,7 +42,7 @@
 			"linkPrefix": "payments"
 		},
 		{
-			"enabled": true,
+			"enabled": false,
 			"name": "connect",
 			"title": "Connect",
 			"logo": "/bahmni/images/connect.png",
