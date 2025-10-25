@@ -23,7 +23,7 @@
 		{
 			"enabled": true,
 			"name": "openelis",
-			"title": "Laborinformationssystem (LIS)",
+			"title": "Labor informationssystem (LIS)",
 			"logo": "/bahmni/images/lab.png",
 			"link": "/openelis"
 		},
@@ -51,7 +51,7 @@
 		{
 			"enabled": true,
 			"name": "dcm",
-			"title": "Radiologieinformationssystem (RIS)",
+			"title": "Radiologie informationssystem (RIS)",
 			"logo": "/bahmni/images/pac.png",
 			"link": "/dcm4chee-web3"
 		},
