@@ -16,21 +16,21 @@
 		{
 			"enabled": true,
 			"name": "clinicalService",
-			"title": "Clinical Service",
+			"title": "Klinisches Arbeitsplatzsystem (KAS)",
 			"logo": "/bahmni/images/app.png",
 			"link": "/bahmni/home"
 		},
 		{
 			"enabled": true,
 			"name": "openelis",
-			"title": "Laboratory",
+			"title": "Laborinformationssystem (LIS)",
 			"logo": "/bahmni/images/lab.png",
 			"link": "/openelis"
 		},
 		{
 			"enabled": true,
 			"name": "odoo",
-			"title": "Stock Inventory & Billing",
+			"title": "Enterprise Resource Planning (ERP)",
 			"logo": "/bahmni/images/bills.png",
 			"linkPrefix": "erp"
 		},
@@ -51,14 +51,14 @@
 		{
 			"enabled": true,
 			"name": "dcm",
-			"title": "Radiology",
+			"title": "Radiologieinformationssystem (RIS)",
 			"logo": "/bahmni/images/pac.png",
 			"link": "/dcm4chee-web3"
 		},
 		{
 			"enabled": true,
 			"name": "metabase",
-			"title": "Analytics",
+			"title": "Analysen",
 			"logo": "/bahmni/images/analytics.png",
 			"link": "/metabase"
 		}

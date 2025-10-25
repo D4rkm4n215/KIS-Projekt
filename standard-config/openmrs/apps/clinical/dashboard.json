@@ -324,24 +324,6 @@
                     "conceptNames":[],
                     "showDetailsButton":true
                 }
-            },
-            "Form 2 Obs To Obs": {
-                "displayType": "Half-Page",
-                "translationKey": "DASHBOARD_TITLE_FORMS2_OBS_TO_OBS_DISPLAY_CONTROL_KEY",
-                "type": "obsToObsFlowSheet",
-                "dashboardConfig": {
-                    "numberOfVisits": 1,
-                    "formNames": [],
-                    "groupByConcept": "",
-                    "isEditable": true,
-                    "conceptNames": []
-                },
-                "expandedViewConfig": {
-                    "formNames": [],
-                    "isEditable": true,
-                    "groupByConcept": "",
-                    "conceptNames": []
-                }
             }
         }
     },
@@ -485,24 +467,6 @@
                 "dashboardConfig":{  
                     "showOnlyActive":true,
                     "drugConceptSet":"All Other Drugs"
-                }
-            },
-            "malaria":{  
-                "title":"Malaria",
-                "type":"obsToObsFlowSheet",
-                "displayType":"Full-Page",
-                "displayOrder":26,
-                "dashboardConfig":{
-                    "groupByConcept":"Treatment start date",
-                    "formNames": [
-                        "Malaria"
-                    ],
-                    "conceptNames": [
-                        "Rapid test for malaria",
-                        "Malaria risk",
-                        "Malaria, Source",
-                        "Problem severity"
-                    ]
                 }
             },
             "Chronic Treatment Chart":{  
