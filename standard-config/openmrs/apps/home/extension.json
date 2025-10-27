@@ -146,7 +146,7 @@
     "type": "link",
     "translationKey": "PATIENT_ADT_PAGE_KEY",
     "url": "../adt/#/home",
-    "icon": "fa-gears",
+    "icon": "fa-bed",
     "order": 16,
     "requiredPrivilege": "app:adt"
   }
