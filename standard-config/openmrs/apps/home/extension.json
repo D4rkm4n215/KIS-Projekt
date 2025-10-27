@@ -139,5 +139,15 @@
     "icon": "fa fa-flask",
     "order": 15,
     "requiredPrivilege": "app:lab-lite"
+  },
+  "adt": {
+    "id": "bahmni.adt.home",
+    "extensionPointId": "org.bahmni.home.dashboard",
+    "type": "link",
+    "translationKey": "PATIENT_ADT_PAGE_KEY",
+    "url": "../adt/#/home",
+    "icon": "fa-gears",
+    "order": 16,
+    "requiredPrivilege": "app:adt"
   }
 }
