@@ -18,8 +18,9 @@ def add_new_key(key, val):
 
 
 if __name__ == "__main__":    
-    add_new_key("DASHBOARD_TITLE_WBC", "White Blood Cells")
-    add_new_key("DASHBOARD_TITLE_RBC", "Red Blood Cells")
-    add_new_key("DASHBOARD_TITLE_PLATELES", "Platelets")
-    add_new_key("DASHBOARD_TITLE_HGB", "Haemoglobin")
-    add_new_key("DASHBOARD_TITLE_HCT", "Hematocrit")
+    # add_new_key("DASHBOARD_TITLE_WBC", "White Blood Cells")
+    # add_new_key("DASHBOARD_TITLE_RBC", "Red Blood Cells")
+    # add_new_key("DASHBOARD_TITLE_PLATELES", "Platelets")
+    # add_new_key("DASHBOARD_TITLE_HGB", "Haemoglobin")
+    # add_new_key("DASHBOARD_TITLE_HCT", "Hematocrit")
+    pass
