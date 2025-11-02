@@ -405,12 +405,72 @@
                 },
                 "displayOrder":4
             },
-            "observationGraph":{  
+            "pulse":{  
                 "type":"observationGraph",
                 "translationKey": "DASHBOARD_TITLE_PULSE",
                 "config":{  
                     "yAxisConcepts":[  
                         "Pulse"
+                    ],
+                    "xAxisConcept":"observationDateTime",
+                    "numberOfVisits":10
+                },
+                "displayOrder":5
+            },
+            "wbc":{  
+                "type":"observationGraph",
+                "translationKey": "DASHBOARD_TITLE_WBC",
+                "config":{  
+                    "yAxisConcepts":[  
+                        "White blood cells"
+                    ],
+                    "xAxisConcept":"observationDateTime",
+                    "numberOfVisits":10
+                },
+                "displayOrder":5
+            },
+            "rbc":{  
+                "type":"observationGraph",
+                "translationKey": "DASHBOARD_TITLE_RBC",
+                "config":{  
+                    "yAxisConcepts":[  
+                        "Red blood cells"
+                    ],
+                    "xAxisConcept":"observationDateTime",
+                    "numberOfVisits":10
+                },
+                "displayOrder":5
+            },
+            "plateles":{  
+                "type":"observationGraph",
+                "translationKey": "DASHBOARD_TITLE_PLATELES",
+                "config":{  
+                    "yAxisConcepts":[  
+                        "Platelets"
+                    ],
+                    "xAxisConcept":"observationDateTime",
+                    "numberOfVisits":10
+                },
+                "displayOrder":5
+            },
+            "hgb":{  
+                "type":"observationGraph",
+                "translationKey": "DASHBOARD_TITLE_HGB",
+                "config":{  
+                    "yAxisConcepts":[  
+                        "Haemoglobin"
+                    ],
+                    "xAxisConcept":"observationDateTime",
+                    "numberOfVisits":10
+                },
+                "displayOrder":5
+            },
+            "hct":{  
+                "type":"observationGraph",
+                "translationKey": "DASHBOARD_TITLE_HCT",
+                "config":{  
+                    "yAxisConcepts":[  
+                        "Hematocrit"
                     ],
                     "xAxisConcept":"observationDateTime",
                     "numberOfVisits":10
