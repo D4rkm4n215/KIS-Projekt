@@ -354,18 +354,6 @@
                 ],
                 "displayOrder":0
             },
-            "growthChart":{  
-                "type":"observationGraph",
-                "translationKey": "DASHBOARD_TITLE_GROWTH_CHART",
-                "config":{  
-                    "yAxisConcepts":[  
-                        "Weight (kg)"
-                    ],
-                    "referenceData":"growthChartReference.csv",
-                    "numberOfVisits":20
-                },
-                "displayOrder":1
-            },
             "BP":{  
                 "type":"observationGraph",
                 "translationKey": "DASHBOARD_TITLE_BLOOD_PRESSURE",
