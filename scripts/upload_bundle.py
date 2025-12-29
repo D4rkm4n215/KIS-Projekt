@@ -3,7 +3,7 @@ import requests
 import sys
 
 # --- KONFIGURATION ---
-BUNDLE_FILE = 'step2_create.json'
+BUNDLE_FILE = 'bahmni_transaction_bundle.json'
 BASE_URL = 'https://localhost/openmrs/ws/fhir2/R4' # Achten Sie auf http vs https
 AUTH = ('superman', 'Admin123')
 VERIFY_SSL = False  # Bei localhost oft notwendig
@@ -79,6 +79,8 @@ def upload_bundle():
 
         # Hochladen
         print(f"Lade {rtype} hoch...")
+        print(updated_resource)
+        stop
         res = requests.post(f"{BASE_URL}/{rtype}", json=updated_resource, headers=headers, auth=AUTH, verify=VERIFY_SSL)
         
         if res.status_code in [200, 201]:
