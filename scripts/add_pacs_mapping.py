@@ -123,24 +123,14 @@ def get_radiology_orders():
         print(f"Das Konzept '{CONCEPT_NAME}' hat keine Mitglieder (setMembers).")
         return
 
-    print(f"\nGefundene Einträge in '{CONCEPT_NAME}':")
-    print("-" * 60)
-    print(f"{'Name':<40} | {'UUID':<36}")
-    print("-" * 60)
+    return [member.get('display') for member in members]
 
-    for member in members:
-        display_name = member.get('display')
-        uuid = member.get('uuid')
-        print(f"{display_name:<40} | {uuid:<36}")
-        
-        # Falls du tiefer gehen willst (Untergruppen):
-        # get_members_recursive(uuid, level=1)
 
-# --- START ---
-# Da wir die Codes nun generieren, brauchen wir nur noch die Namen der Konzepte
-concepts_to_process = [
-    "X-ray of abdomen, 2 views (AP supine and lateral decubitus)"
-]
+if __name__ == "__main__":
+    # --- START ---
+    # Da wir die Codes nun generieren, brauchen wir nur noch die Namen der Konzepte
+    concepts_to_process = get_radiology_orders()
 
-for name in concepts_to_process:
-    setup_radiology_mapping(name)
+    for name in concepts_to_process:
+        # print(name)
+        setup_radiology_mapping(name)
