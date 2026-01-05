@@ -1,8 +1,9 @@
 import requests
 import json
 import urllib3
+import uuid  # Neu hinzugefügt für die Generierung von UUIDs
 
-# SSL Warnungen für selbstsignierte Zertifikate unterdrücken
+# SSL Warnungen unterdrücken
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # --- KONFIGURATION ---
@@ -10,9 +11,8 @@ BASE_URL = "https://localhost/openmrs/ws/rest/v1"
 AUTH = ("superman", "Admin123")
 HEADERS = {"Content-Type": "application/json"}
 SOURCE_NAME = "PACS Procedure Code"
-VERIFY_SSL = False  # Wichtig für dein selbstsigniertes Zertifikat
-CONCEPT_NAME = "All Radiology orders"
-
+VERIFY_SSL = False
+SAME_AS_MAP_TYPE = "SAME-AS"
 
 def get_resource(endpoint, params=None):
     response = requests.get(f"{BASE_URL}/{endpoint}", auth=AUTH, params=params, verify=VERIFY_SSL)
@@ -26,7 +26,79 @@ def post_resource(endpoint, payload):
         print(f"Fehler bei POST {endpoint}: {response.status_code} - {response.text}")
         return None
 
+def setup_radiology_mapping(concept_display_name):
+    print(f"\n--- Verarbeite: {concept_display_name} ---")
+
+    # 1. Sicherstellen, dass die Concept Source existiert
+    source = get_resource("conceptsource", {"q": SOURCE_NAME})
+    if not source or not source['results']:
+        print(f"Erstelle Concept Source: {SOURCE_NAME}...")
+        source = post_resource("conceptsource", {"name": SOURCE_NAME, "description": "Source for PACS Codes"})
+        source_uuid = source['uuid']
+    else:
+        source_uuid = source['results'][0]['uuid']
+
+    # 2. Konzept abrufen (mit allen Mappings)
+    concept_search = get_resource("concept", {"q": concept_display_name, "v": "full"})
+    if not concept_search or not concept_search['results']:
+        print(f"FEHLER: Konzept '{concept_display_name}' nicht gefunden.")
+        return
+
+    concept_data = concept_search['results'][0]
+    concept_uuid = concept_data['uuid']
+    existing_mappings = concept_data.get('mappings', [])
+    
+    # Prüfen, ob bereits ein Mapping für diese Source existiert
+    already_mapped = False
+    updated_mappings = []
+    
+    for m in existing_mappings:
+        ref_term = m.get('conceptReferenceTerm')
+        if not ref_term: continue
+        
+        # Mapping für Payload sichern
+        updated_mappings.append({
+            "conceptReferenceTerm": ref_term['uuid'],
+            "conceptMapType": m['conceptMapType']['uuid']
+        })
+        
+        # Check ob unsere Source schon gemappt ist
+        source_ref = ref_term.get('conceptSource')
+        # In 'full' Ansicht ist conceptSource oft ein Objekt
+        source_name_current = source_ref.get('display') if isinstance(source_ref, dict) else ""
+        
+        if SOURCE_NAME in source_name_current:
+            already_mapped = True
+
+    if already_mapped:
+        print(f"Info: {concept_display_name} hat bereits ein PACS-Mapping. Überspringe...")
+        return
+
+    # 3. Neuen Reference Term erstellen (Code = UUID, Name = Konzeptname)
+    new_pacs_code = str(uuid.uuid4()) # Generiert eine zufällige UUID
+    print(f"Erstelle neuen Term: Name='{concept_display_name}', Code='{new_pacs_code}'")
+    
+    term_payload = {
+        "code": new_pacs_code,
+        "name": concept_display_name, # Hier wird der Name des Konzeptes gesetzt
+        "conceptSource": source_uuid
+    }
+    
+    new_term = post_resource("conceptreferenceterm", term_payload)
+    if not new_term:
+        return
+
+    # 4. Mapping zum Konzept hinzufügen
+    updated_mappings.append({
+        "conceptReferenceTerm": new_term['uuid'],
+        "conceptMapType": SAME_AS_MAP_TYPE
+    })
+
+    if post_resource(f"concept/{concept_uuid}", {"mappings": updated_mappings}):
+        print(f"ERFOLG: Mapping für {concept_display_name} mit UUID-Code erstellt.")
+
 def get_radiology_orders():
+    CONCEPT_NAME = "All Radiology orders"
     # 1. Suche nach dem Haupt-Konzept
     print(f"Suche nach Konzept: {CONCEPT_NAME}...")
     search_url = f"{BASE_URL}/concept"
@@ -64,99 +136,11 @@ def get_radiology_orders():
         # Falls du tiefer gehen willst (Untergruppen):
         # get_members_recursive(uuid, level=1)
 
-def setup_radiology_mapping(concept_display_name, pacs_code):
-    print(f"--- Verarbeite: {concept_display_name} ({pacs_code}) ---")
+# --- START ---
+# Da wir die Codes nun generieren, brauchen wir nur noch die Namen der Konzepte
+concepts_to_process = [
+    "X-ray of abdomen, 2 views (AP supine and lateral decubitus)"
+]
 
-    # 1. Sicherstellen, dass die Concept Source existiert
-    source = get_resource(f"conceptsource", {"q": SOURCE_NAME})
-    source_uuid = None
-    if source and source['results']:
-        source_uuid = source['results'][0]['uuid']
-    else:
-        print(f"Erstelle Concept Source: {SOURCE_NAME}...")
-        new_source = post_resource("conceptsource", {"name": SOURCE_NAME, "description": "Source for PACS Codes"})
-        source_uuid = new_source['uuid']
-
-    # 2. Sicherstellen, dass der Reference Term existiert
-    term_search = get_resource("conceptreferenceterm", {"q": pacs_code, "source": source_uuid})
-    term_uuid = None
-    
-    # Exakte Übereinstimmung prüfen
-    if term_search and term_search['results']:
-        for result in term_search['results']:
-            if result['display'].split(":")[1].strip() == pacs_code: # Format ist oft "Source: Code"
-                term_uuid = result['uuid']
-                break
-
-    if not term_uuid:
-        print(f"Erstelle Reference Term: {pacs_code}...")
-        new_term = post_resource("conceptreferenceterm", {
-            "code": pacs_code,
-            "conceptSource": source_uuid
-        })
-        if new_term: term_uuid = new_term['uuid']
-
-    # 2. Bestehendes Konzept abrufen, um aktuelle Mappings zu erhalten
-    concept_search = get_resource("concept", {"q": concept_display_name, "v": "full"}) # 'v=full' ist wichtig für Mappings
-    if not concept_search or not concept_search['results']:
-        print(f"Fehler: Konzept '{concept_display_name}' nicht gefunden.")
-        return
-
-    concept_data = concept_search['results'][0]
-    concept_uuid = concept_data['uuid']
-    
-    # Bestehende Mappings extrahieren
-    existing_mappings = concept_data.get('mappings', [])
-    updated_mappings = []
-    already_exists = False
-
-    for m in existing_mappings:
-        ref_term = m.get('conceptReferenceTerm')
-        map_type = m.get('conceptMapType')
-        
-        # Sicherstellen, dass die nötigen Basis-Daten da sind, um das Mapping zu erhalten
-        if not ref_term or not map_type:
-            continue
-
-        # Payload für das bestehende Mapping vorbereiten (wir brauchen die UUIDs)
-        m_payload = {
-            "conceptReferenceTerm": ref_term.get('uuid'),
-            "conceptMapType": map_type.get('uuid')
-        }
-        updated_mappings.append(m_payload)
-        
-        # Sicherer Check auf den PACS-Code
-        # .get('code') gibt None zurück, statt abzustürzen, wenn der Key fehlt
-        current_code = ref_term.get('code')
-        if current_code == pacs_code:
-            already_exists = True
-
-    if already_exists:
-        print(f"Info: Mapping für {pacs_code} existiert bereits. Überspringe...")
-        return
-
-    # 3. Das neue Mapping zur Liste hinzufügen
-    updated_mappings.append({
-        "conceptReferenceTerm": term_uuid,
-        "conceptMapType": "SAME-AS" # SAME-AS
-    })
-
-    # 4. Das Konzept mit der VOLLSTÄNDIGEN Liste aktualisieren
-    mapping_payload = {
-        "mappings": updated_mappings
-    }
-
-    if post_resource(f"concept/{concept_uuid}", mapping_payload):
-        print(f"ERFOLG: Mapping für {concept_display_name} hinzugefügt (alte Mappings beibehalten).")
-
-
-if __name__ == "__main__":
-    # --- BEISPIEL-DATEN (Hier kannst du deine CSV-Logik einbauen) ---
-    # Format: ("Name in Bahmni", "PACS Code")
-
-    # get_radiology_orders()
-    data_to_map = [
-        ("X-ray of abdomen, 2 views (AP supine and lateral decubitus)", "X-ray of abdomen, 2 views (AP supine and lateral decubitus)"),
-    ]
-    for bahmni_name, code in data_to_map:
-        setup_radiology_mapping(bahmni_name, code)
+for name in concepts_to_process:
+    setup_radiology_mapping(name)
