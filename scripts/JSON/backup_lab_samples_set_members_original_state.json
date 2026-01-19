@@ -1,0 +1,103 @@
+{
+    "Lab Samples": {
+        "parent_uuid": "d32a6beb-5e07-11ef-8f7c-0242ac120002",
+        "parent_name": "Lab Samples",
+        "set_members": [
+            {
+                "uuid": "0166bbd5-8609-4c78-b830-53512a4cbbd3",
+                "name": "Blood Specimen",
+                "retired": false
+            },
+            {
+                "uuid": "159994AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Urine",
+                "retired": false
+            },
+            {
+                "uuid": "1001AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Serum",
+                "retired": false
+            },
+            {
+                "uuid": "1004AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Sputum",
+                "retired": false
+            },
+            {
+                "uuid": "1002AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Plasma",
+                "retired": false
+            },
+            {
+                "uuid": "163368AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Semen",
+                "retired": false
+            },
+            {
+                "uuid": "159995AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Cerebrospinal fluid",
+                "retired": false
+            },
+            {
+                "uuid": "159993AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Feces",
+                "retired": false
+            },
+            {
+                "uuid": "160013AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "saliva",
+                "retired": false
+            },
+            {
+                "uuid": "d2946308-8730-4767-a8e9-a515ccd0be0f",
+                "name": "Pus specimen",
+                "retired": false
+            },
+            {
+                "uuid": "163370AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Body fluid specimen",
+                "retired": false
+            },
+            {
+                "uuid": "9856203a-85c7-4adb-9732-e06d4b12f930",
+                "name": "Amniotic fluid specimen",
+                "retired": false
+            },
+            {
+                "uuid": "4a716a48-08db-4ecb-b1ae-5b528f369d88",
+                "name": "Urethral fluid",
+                "retired": false
+            },
+            {
+                "uuid": "163350AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Vaginal fluid",
+                "retired": false
+            },
+            {
+                "uuid": "1d372353-ff56-49d4-97dd-5274fd460156",
+                "name": "Tissue Specimen",
+                "retired": false
+            },
+            {
+                "uuid": "163364AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Nasopharyngeal Swab",
+                "retired": false
+            },
+            {
+                "uuid": "163365AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Cervical Swab",
+                "retired": false
+            },
+            {
+                "uuid": "43d31d4d-01a0-47b1-854f-545d57a0c78f",
+                "name": "Skin Specimen",
+                "retired": false
+            },
+            {
+                "uuid": "8578dd94-a066-4851-bb9f-1c7c03360d8b",
+                "name": "Other Specimen",
+                "retired": false
+            }
+        ]
+    }
+}
