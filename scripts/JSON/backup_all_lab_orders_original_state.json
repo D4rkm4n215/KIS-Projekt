@@ -1,0 +1,3171 @@
+{
+    "Blood Specimen": {
+        "parent_uuid": "0166bbd5-8609-4c78-b830-53512a4cbbd3",
+        "parent_name": "Blood Specimen",
+        "set_members": [
+            {
+                "uuid": "161432AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Absolute eosinophil count test",
+                "retired": false
+            },
+            {
+                "uuid": "17bd7da1-e876-45dd-b0a5-1961c1c491fc",
+                "name": "25-hydroxyvitamin D3 measurement",
+                "retired": false
+            },
+            {
+                "uuid": "161493AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Alpha fetoprotein test",
+                "retired": false
+            },
+            {
+                "uuid": "1334AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Absolute atypical lymphocyte count",
+                "retired": false
+            },
+            {
+                "uuid": "161478AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Anti-streptolysin O test",
+                "retired": false
+            },
+            {
+                "uuid": "1335AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Absolute immature cell count",
+                "retired": false
+            },
+            {
+                "uuid": "161434AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Bleeding time test",
+                "retired": false
+            },
+            {
+                "uuid": "163443AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Acid phosphatase blood test in blood (units/L)",
+                "retired": false
+            },
+            {
+                "uuid": "161473AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Blood grouping test",
+                "retired": false
+            },
+            {
+                "uuid": "166022AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Activated clotting time (min)",
+                "retired": false
+            },
+            {
+                "uuid": "161501AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "C-reactive protein test",
+                "retired": false
+            },
+            {
+                "uuid": "163002AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Ammonia measurement in blood",
+                "retired": false
+            },
+            {
+                "uuid": "161518AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Cardiac enzyme test",
+                "retired": false
+            },
+            {
+                "uuid": "165555AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Anion gap (moles/vol)",
+                "retired": false
+            },
+            {
+                "uuid": "657AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "CD4 panel",
+                "retired": false
+            },
+            {
+                "uuid": "165556AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Anisocytosis in blood by light microscopy",
+                "retired": false
+            },
+            {
+                "uuid": "161508AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Ceruloplasmin test",
+                "retired": false
+            },
+            {
+                "uuid": "160767AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Antenatal HIV test construct",
+                "retired": false
+            },
+            {
+                "uuid": "163702AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Clotting Panel",
+                "retired": false
+            },
+            {
+                "uuid": "160670AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Antenatal RhD antibody screening",
+                "retired": false
+            },
+            {
+                "uuid": "161436AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Clotting time test",
+                "retired": false
+            },
+            {
+                "uuid": "160711AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Antenatal toxoplasma IgM antibody test",
+                "retired": false
+            },
+            {
+                "uuid": "163436AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Coagulation profile",
+                "retired": false
+            },
+            {
+                "uuid": "166003AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Arterial blood lactate (moles/volume)",
+                "retired": false
+            },
+            {
+                "uuid": "163700AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Complete blood count (auto)",
+                "retired": false
+            },
+            {
+                "uuid": "165997AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Arterial blood lactate measurement",
+                "retired": false
+            },
+            {
+                "uuid": "163701AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "complete blood count with manual count and manual differential",
+                "retired": false
+            },
+            {
+                "uuid": "166002AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Arterial blood total carbon dioxide (moles/volume)",
+                "retired": false
+            },
+            {
+                "uuid": "161499AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Coombs' test",
+                "retired": false
+            },
+            {
+                "uuid": "2c779f4b-7686-4729-b8d7-73160f747da1",
+                "name": "AST to platelet ratio index (APRI), blood/serum",
+                "retired": false
+            },
+            {
+                "uuid": "161487AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Diabetes panel",
+                "retired": false
+            },
+            {
+                "uuid": "1328AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Atypical lymphocyte (%)",
+                "retired": false
+            },
+            {
+                "uuid": "1026AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Differential",
+                "retired": false
+            },
+            {
+                "uuid": "c9c40046-0d2c-4e18-aa8c-8a8eed4dac4b",
+                "name": "Automated blood large platelet/platelet ratio",
+                "retired": false
+            },
+            {
+                "uuid": "166375AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Disseminated intravascular coagulation (DIC) screening panel",
+                "retired": false
+            },
+            {
+                "uuid": "1020AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Bands",
+                "retired": false
+            },
+            {
+                "uuid": "161491AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Follicle stimulating hormone panel",
+                "retired": false
+            },
+            {
+                "uuid": "1337AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Bands (%) microscopic exam",
+                "retired": false
+            },
+            {
+                "uuid": "163602AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Gas Panel - Arterial Blood",
+                "retired": false
+            },
+            {
+                "uuid": "163599AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Base excess in arterial blood by calculation",
+                "retired": false
+            },
+            {
+                "uuid": "164945AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "GeneXpert MTB/Rif Lab set",
+                "retired": false
+            },
+            {
+                "uuid": "1025AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Basophils",
+                "retired": false
+            },
+            {
+                "uuid": "161514AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Glucose 6 phosphate dehydrogenase",
+                "retired": false
+            },
+            {
+                "uuid": "1341AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Basophils (%) - microscopic exam",
+                "retired": false
+            },
+            {
+                "uuid": "163708AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Glucose tolerance test 5 specimens (75g) panel",
+                "retired": false
+            },
+            {
+                "uuid": "163439AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Beta globulin level",
+                "retired": false
+            },
+            {
+                "uuid": "161429AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Hemoglobin only",
+                "retired": false
+            },
+            {
+                "uuid": "163596AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "bicarbonate in arterial blood",
+                "retired": false
+            },
+            {
+                "uuid": "161422AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Hemoglobin with electrophoresis",
+                "retired": false
+            },
+            {
+                "uuid": "166555AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Blood Cryptococcus species antigen assay",
+                "retired": false
+            },
+            {
+                "uuid": "161515AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Lipase test",
+                "retired": false
+            },
+            {
+                "uuid": "161426AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Malarial parasites by smear test",
+                "retired": false
+            },
+            {
+                "uuid": "166016AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Brain natriuretic peptide (BNP) measurement",
+                "retired": false
+            },
+            {
+                "uuid": "161428AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Microfilaria test",
+                "retired": false
+            },
+            {
+                "uuid": "305AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Brucella test",
+                "retired": false
+            },
+            {
+                "uuid": "167178AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Post-prandial blood glucose panel",
+                "retired": false
+            },
+            {
+                "uuid": "159862AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "brucella test, serotype",
+                "retired": false
+            },
+            {
+                "uuid": "161517AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Prolactin test",
+                "retired": false
+            },
+            {
+                "uuid": "1028AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "CD3 count",
+                "retired": false
+            },
+            {
+                "uuid": "161520AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Prostate specific antigen test",
+                "retired": false
+            },
+            {
+                "uuid": "1310AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "CD3%",
+                "retired": false
+            },
+            {
+                "uuid": "161152AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Prothrombin Time (with INR)",
+                "retired": false
+            },
+            {
+                "uuid": "854AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "CD4/CD8",
+                "retired": false
+            },
+            {
+                "uuid": "161424AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Red blood cell morphology",
+                "retired": false
+            },
+            {
+                "uuid": "853AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "CD8 count",
+                "retired": false
+            },
+            {
+                "uuid": "161479AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Rheumatoid factor test",
+                "retired": false
+            },
+            {
+                "uuid": "1027AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "CD8%",
+                "retired": false
+            },
+            {
+                "uuid": "161425AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Sedimentation test",
+                "retired": false
+            },
+            {
+                "uuid": "165860AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Centers for Disease Control and Prevention (CDC) 2019-Novel Coronavirus (2019-nCoV) Real-Time Reverse Transcriptase (RT)-PCR Diagnostic Panel",
+                "retired": false
+            },
+            {
+                "uuid": "161461AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Acid fast bacilli test",
+                "retired": false
+            },
+            {
+                "uuid": "1033AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Chlamydia trachomatis polymerase chain reaction",
+                "retired": false
+            },
+            {
+                "uuid": "161437AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Anemia panel",
+                "retired": false
+            },
+            {
+                "uuid": "1034AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Chlamydia trachomatis polymerase chain reaction, qualitative",
+                "retired": false
+            },
+            {
+                "uuid": "161496AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Bone marrow test",
+                "retired": false
+            },
+            {
+                "uuid": "163654AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Cholera rapid antigen test",
+                "retired": false
+            },
+            {
+                "uuid": "1019AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Complete blood count",
+                "retired": false
+            },
+            {
+                "uuid": "3d004238-1389-4fc5-9bd3-2d35539ab3f3",
+                "name": "Creatine kinase-MB measurement, blood (ng/mL)",
+                "retired": false
+            },
+            {
+                "uuid": "161430AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Routine blood panel",
+                "retired": false
+            },
+            {
+                "uuid": "161232AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Cytomegalovirus antigen test",
+                "retired": false
+            },
+            {
+                "uuid": "161431AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Sickling test only",
+                "retired": false
+            },
+            {
+                "uuid": "161526AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Cytomegalovirus IgG",
+                "retired": false
+            },
+            {
+                "uuid": "162630AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Basic metabolic panel",
+                "retired": false
+            },
+            {
+                "uuid": "161527AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Cytomegalovirus IgM",
+                "retired": false
+            },
+            {
+                "uuid": "166374AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Comprehensive metabolic panel",
+                "retired": false
+            },
+            {
+                "uuid": "161230AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Donor specific antibody",
+                "retired": false
+            },
+            {
+                "uuid": "166199AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Dried blood spot severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) antibody detection by immunoassay",
+                "retired": false
+            },
+            {
+                "uuid": "1024AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Eosinophils",
+                "retired": false
+            },
+            {
+                "uuid": "1340AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Eosinophils (%) - microscopic exam",
+                "retired": false
+            },
+            {
+                "uuid": "163429AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Factor IX assay test",
+                "retired": false
+            },
+            {
+                "uuid": "163428AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Factor VIII assay test",
+                "retired": false
+            },
+            {
+                "uuid": "166377AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Fibrinogen assay",
+                "retired": false
+            },
+            {
+                "uuid": "163432AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Functional Antithrombin III (active)",
+                "retired": false
+            },
+            {
+                "uuid": "163431AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Functional Antithrombin III (antigen)",
+                "retired": false
+            },
+            {
+                "uuid": "163442AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Gamma globulin level",
+                "retired": false
+            },
+            {
+                "uuid": "161133AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Glomerular filtration rate, calculated",
+                "retired": false
+            },
+            {
+                "uuid": "3fd3beda-b7db-408b-b44b-c701c50fd5e3",
+                "name": "Glucose management indicator",
+                "retired": false
+            },
+            {
+                "uuid": "163594AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Glucose tolerance test pre-glucose administration",
+                "retired": false
+            },
+            {
+                "uuid": "163704AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Glucose, serum 1 hr post 75g oral glucose (mg/dL)",
+                "retired": false
+            },
+            {
+                "uuid": "167173AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Glucose, serum 1.5 hrs post 75g oral glucose (mg/dL)",
+                "retired": false
+            },
+            {
+                "uuid": "163703AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Glucose, serum 1/2 hr post 75g oral glucose (mg/dL)",
+                "retired": false
+            },
+            {
+                "uuid": "163705AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Glucose, serum 2 hrs post 75g oral glucose (mg/dL)",
+                "retired": false
+            },
+            {
+                "uuid": "163706AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Glucose, serum 3 hrs post 75g oral glucose (mg/dL)",
+                "retired": false
+            },
+            {
+                "uuid": "163707AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Glucose, serum 4 hrs post 75g oral glucose (mg/dL)",
+                "retired": false
+            },
+            {
+                "uuid": "165396AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Haemoglobin measured from colour scale (g/dl)",
+                "retired": false
+            },
+            {
+                "uuid": "165395AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Haemoglobin measured from haemoglobinometer (g/dl)",
+                "retired": false
+            },
+            {
+                "uuid": "162282AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Heel stick for capillary blood specimen",
+                "retired": false
+            },
+            {
+                "uuid": "161519AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Hemoglobin electrophoresis by HPLC",
+                "retired": false
+            },
+            {
+                "uuid": "165544AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Hemoglobin electrophoresis pattern",
+                "retired": false
+            },
+            {
+                "uuid": "165985AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Hemoglobin in arterial blood (mass/volume)",
+                "retired": false
+            },
+            {
+                "uuid": "163430AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Heparin test",
+                "retired": false
+            },
+            {
+                "uuid": "a8c0a4d6-4878-4bca-af99-514e6d19b40a",
+                "name": "Hepatitis B DNA quantitative (IU/mL)",
+                "retired": false
+            },
+            {
+                "uuid": "1321AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Hepatitis B test (cut-off od)",
+                "retired": false
+            },
+            {
+                "uuid": "1320AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Hepatitis B test (od) - quantitative",
+                "retired": false
+            },
+            {
+                "uuid": "1322AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Hepatitis B test - qualitative",
+                "retired": false
+            },
+            {
+                "uuid": "161234AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Hepatitis B virus DNA test",
+                "retired": false
+            },
+            {
+                "uuid": "ae5f7e1a-c200-4afd-a40f-279bcbcf8ce0",
+                "name": "Hepatitis B virus e antigen assay",
+                "retired": false
+            },
+            {
+                "uuid": "161471AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Hepatitis C antibody spot test",
+                "retired": false
+            },
+            {
+                "uuid": "1324AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Hepatitis C test (cut-off od)",
+                "retired": false
+            },
+            {
+                "uuid": "1323AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Hepatitis C test (od) - quantitative",
+                "retired": false
+            },
+            {
+                "uuid": "70f8dc79-a1f8-4ddb-849e-c16fe7941f1f",
+                "name": "Hepatitis C viral antigen measurement",
+                "retired": false
+            },
+            {
+                "uuid": "cc7b3db1-00b8-4cee-84c1-1f0389fe8d7a",
+                "name": "Hepatitis C virus (HCV) nucleic acid detection by PCR in serum/plasma",
+                "retired": false
+            },
+            {
+                "uuid": "50065527-8c42-4701-9f5f-318971671408",
+                "name": "Hepatitis C virus genotype",
+                "retired": false
+            },
+            {
+                "uuid": "4f11783f-dfbf-4143-b713-dfef393182d1",
+                "name": "Hepatitis C virus RNA PCR quantitative (IU/ml)",
+                "retired": false
+            },
+            {
+                "uuid": "161529AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Herpes simplex IgG",
+                "retired": false
+            },
+            {
+                "uuid": "161528AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Herpes simplex IgM",
+                "retired": false
+            },
+            {
+                "uuid": "1044AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Herpes simplex virus polymerase chain reaction",
+                "retired": false
+            },
+            {
+                "uuid": "1046AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Herpes simplex virus polymerase chain reaction, qualitative",
+                "retired": false
+            },
+            {
+                "uuid": "1037AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Herpes simplex virus threshhold percentage, quantitative",
+                "retired": false
+            },
+            {
+                "uuid": "166046AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "High-density lipoprotein cholesterol measurement (mg/dL)",
+                "retired": false
+            },
+            {
+                "uuid": "844AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "HIV DNA polymerase chain reaction",
+                "retired": false
+            },
+            {
+                "uuid": "167441AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "HIV DNA polymerase chain reaction, dried blood spot (DBS)",
+                "retired": false
+            },
+            {
+                "uuid": "1030AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "HIV DNA polymerase chain reaction, qualitative",
+                "retired": false
+            },
+            {
+                "uuid": "1318AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "HIV enzyme immunoassay (cut-off od), quantitative",
+                "retired": false
+            },
+            {
+                "uuid": "1042AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "HIV enzyme immunoassay, qualitative",
+                "retired": false
+            },
+            {
+                "uuid": "1041AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "HIV enzyme immunoassay, quantitative",
+                "retired": false
+            },
+            {
+                "uuid": "1040AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "HIV rapid test 1, qualitative",
+                "retired": false
+            },
+            {
+                "uuid": "1326AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "HIV rapid test 2, qualitative",
+                "retired": false
+            },
+            {
+                "uuid": "856AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "HIV viral load",
+                "retired": false
+            },
+            {
+                "uuid": "1305AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "HIV viral load, qualitative",
+                "retired": false
+            },
+            {
+                "uuid": "1045AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "HIV western blot bands",
+                "retired": false
+            },
+            {
+                "uuid": "1047AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "HIV western blot, qualitative",
+                "retired": false
+            },
+            {
+                "uuid": "165089AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "HIV-1 rapid recency assay",
+                "retired": false
+            },
+            {
+                "uuid": "163610AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Human immunodeficiency virus (HIV) genotype susceptibility test",
+                "retired": false
+            },
+            {
+                "uuid": "163342AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Human immunodeficiency virus p24 antigen test",
+                "retired": false
+            },
+            {
+                "uuid": "165557AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Hypochromia in blood by light microscopy",
+                "retired": false
+            },
+            {
+                "uuid": "1329AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Immature cell (%)",
+                "retired": false
+            },
+            {
+                "uuid": "167166AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Immune stain study",
+                "retired": false
+            },
+            {
+                "uuid": "161150AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Immunophenotyping test",
+                "retired": false
+            },
+            {
+                "uuid": "163545AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Last HIV viral load",
+                "retired": false
+            },
+            {
+                "uuid": "163615AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Lupus erythematosus cells presence in blood test",
+                "retired": false
+            },
+            {
+                "uuid": "1319AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Lymphocyte count by flow cytometry",
+                "retired": false
+            },
+            {
+                "uuid": "165558AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Lymphocyte count in blood (10^3/ul)",
+                "retired": false
+            },
+            {
+                "uuid": "1021AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Lymphocytes",
+                "retired": false
+            },
+            {
+                "uuid": "163593AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "mean blood glucose",
+                "retired": false
+            },
+            {
+                "uuid": "1307AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Mean platelet volume",
+                "retired": false
+            },
+            {
+                "uuid": "165559AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Microcytes in blood by light microscopy",
+                "retired": false
+            },
+            {
+                "uuid": "165578AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Mixed cell count (10^3/ul)",
+                "retired": false
+            },
+            {
+                "uuid": "1023AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Monocytes",
+                "retired": false
+            },
+            {
+                "uuid": "1339AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Monocytes (%) - microscopic exam",
+                "retired": false
+            },
+            {
+                "uuid": "166017AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "N-terminal pro brain natriuretic peptide (NT-proBNP) measurement",
+                "retired": false
+            },
+            {
+                "uuid": "1022AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Neutrophils",
+                "retired": false
+            },
+            {
+                "uuid": "163597AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Oxygen saturation in Arterial blood",
+                "retired": false
+            },
+            {
+                "uuid": "163595AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Partial pressure of carbon dioxide in arterial blood",
+                "retired": false
+            },
+            {
+                "uuid": "163598AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Partial pressure of oxygen in arterial blood",
+                "retired": false
+            },
+            {
+                "uuid": "165984AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "pH of arterial blood",
+                "retired": false
+            },
+            {
+                "uuid": "1309AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Platelet distribution width",
+                "retired": false
+            },
+            {
+                "uuid": "1308AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Plateletcrit",
+                "retired": false
+            },
+            {
+                "uuid": "165560AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Poikilocytosis in blood by light microscopy",
+                "retired": false
+            },
+            {
+                "uuid": "159859AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Polymerase chain reaction, human papilloma virus, qualitative",
+                "retired": false
+            },
+            {
+                "uuid": "163671AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Porphyrins in red blood cells test",
+                "retired": false
+            },
+            {
+                "uuid": "166423AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Presence of prostate specific antigen (qualitative)",
+                "retired": false
+            },
+            {
+                "uuid": "165303AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Rapid syphilis test",
+                "retired": false
+            },
+            {
+                "uuid": "165579AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Red Blood Cell Distribution Width - Corpuscular Volume",
+                "retired": false
+            },
+            {
+                "uuid": "165580AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Red blood cell distribution width - standard deviation",
+                "retired": false
+            },
+            {
+                "uuid": "163604AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Red blood cells in microscopy of saline mount",
+                "retired": false
+            },
+            {
+                "uuid": "160232AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Rhesus blood grouping test",
+                "retired": false
+            },
+            {
+                "uuid": "161524AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Rubella IgG",
+                "retired": false
+            },
+            {
+                "uuid": "161525AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Rubella IgM",
+                "retired": false
+            },
+            {
+                "uuid": "165624AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) RNA panel by probe and target amplification method",
+                "retired": false
+            },
+            {
+                "uuid": "165982AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) RNA viral load measurement by probe and target amplification method (log number/volume)",
+                "retired": false
+            },
+            {
+                "uuid": "165966AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Severe acute respiratory syndrome coronavirus 2 IgG antibody in dried blood specimen by immunoassay",
+                "retired": false
+            },
+            {
+                "uuid": "654df19e-4bc2-479e-9de0-7231ebafac41",
+                "name": "Sickle cell rapid screening test",
+                "retired": false
+            },
+            {
+                "uuid": "32ea72a7-f317-40e6-91ca-fc2be5292035",
+                "name": "Smooth muscle antibody presence in blood/serum",
+                "retired": false
+            },
+            {
+                "uuid": "167182AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Total lipids measurement (mg/dl)",
+                "retired": false
+            },
+            {
+                "uuid": "160708AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Toxoplasma IgG antibody test",
+                "retired": false
+            },
+            {
+                "uuid": "166047AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Very low density lipoprotein measurement (mg/dL)",
+                "retired": false
+            },
+            {
+                "uuid": "163605AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "White blood cells in microscopy of saline mount",
+                "retired": false
+            },
+            {
+                "uuid": "164920AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Zika virus real time RT-PCR in serum or plasma",
+                "retired": false
+            },
+            {
+                "uuid": "1333AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Absolute basophil count",
+                "retired": false
+            },
+            {
+                "uuid": "1332AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Absolute eosinophil count",
+                "retired": false
+            },
+            {
+                "uuid": "952AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Absolute lymphocyte count",
+                "retired": false
+            },
+            {
+                "uuid": "1331AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Absolute monocyte count",
+                "retired": false
+            },
+            {
+                "uuid": "1330AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Absolute neutrophil count",
+                "retired": false
+            },
+            {
+                "uuid": "166395AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Absolute reticulocyte count",
+                "retired": false
+            },
+            {
+                "uuid": "163427AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Activated clotting time in blood by coagulation assay",
+                "retired": false
+            },
+            {
+                "uuid": "165302AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Anti-HCV rapid diagnostic test",
+                "retired": false
+            },
+            {
+                "uuid": "161433AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Bleeding time (min)",
+                "retired": false
+            },
+            {
+                "uuid": "161233AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Blood cross-matching",
+                "retired": false
+            },
+            {
+                "uuid": "300AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Blood typing",
+                "retired": false
+            },
+            {
+                "uuid": "161149AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Bone marrow biopsy",
+                "retired": false
+            },
+            {
+                "uuid": "5497AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "CD4 count",
+                "retired": false
+            },
+            {
+                "uuid": "730AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "CD4%",
+                "retired": false
+            },
+            {
+                "uuid": "161435AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Clotting time (min)",
+                "retired": false
+            },
+            {
+                "uuid": "163426AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Combined % of monocytes, eosinophils and basophils",
+                "retired": false
+            },
+            {
+                "uuid": "161155AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Culture and sensitivity, blood",
+                "retired": false
+            },
+            {
+                "uuid": "166018AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "D-dimer",
+                "retired": false
+            },
+            {
+                "uuid": "159607AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Direct Coombs test",
+                "retired": false
+            },
+            {
+                "uuid": "855AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Erythrocyte sedimentation rate",
+                "retired": false
+            },
+            {
+                "uuid": "160912AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Fasting blood glucose measurement (mg/dL)",
+                "retired": false
+            },
+            {
+                "uuid": "160226AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Glucose-6-Phosphate Dehydrogenase test, qualitative",
+                "retired": false
+            },
+            {
+                "uuid": "159644AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Glycosylated hemoglobin A measurement",
+                "retired": false
+            },
+            {
+                "uuid": "161454AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Gram stain",
+                "retired": false
+            },
+            {
+                "uuid": "21AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Haemoglobin",
+                "retired": false
+            },
+            {
+                "uuid": "165301AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "HBsAg Rapid Diagnostic Test",
+                "retired": false
+            },
+            {
+                "uuid": "166137AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "HCV viral load, qualitative",
+                "retired": false
+            },
+            {
+                "uuid": "1015AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Hematocrit",
+                "retired": false
+            },
+            {
+                "uuid": "161421AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Hemoglobin electrophoresis",
+                "retired": false
+            },
+            {
+                "uuid": "161472AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Hepatitis B surface antigen spot test",
+                "retired": false
+            },
+            {
+                "uuid": "1356AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "HIV Test",
+                "retired": false
+            },
+            {
+                "uuid": "159606AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Indirect antiglobulin test in serum or plasma",
+                "retired": false
+            },
+            {
+                "uuid": "161482AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "International normalized ratio",
+                "retired": false
+            },
+            {
+                "uuid": "1338AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Lymphocytes (%) - microscopic exam",
+                "retired": false
+            },
+            {
+                "uuid": "32AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Malarial smear",
+                "retired": false
+            },
+            {
+                "uuid": "1017AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Mean cell hemoglobin concentration",
+                "retired": false
+            },
+            {
+                "uuid": "1018AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Mean corpuscular hemoglobin",
+                "retired": false
+            },
+            {
+                "uuid": "851AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Mean corpuscular volume",
+                "retired": false
+            },
+            {
+                "uuid": "1336AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Neutrophils (%) - microscopic exam",
+                "retired": false
+            },
+            {
+                "uuid": "161153AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Partial Thromboplastin Time",
+                "retired": false
+            },
+            {
+                "uuid": "161427AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Peripheral smear for microfilaria, concentration method",
+                "retired": false
+            },
+            {
+                "uuid": "161423AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Peripheral smear for RBC morphology",
+                "retired": false
+            },
+            {
+                "uuid": "729AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Platelets",
+                "retired": false
+            },
+            {
+                "uuid": "160914AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Post-prandial blood glucose measurement (mg/dL)",
+                "retired": false
+            },
+            {
+                "uuid": "167175AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Post-prandial blood glucose measurement (mg/dL) 1 hour after meal",
+                "retired": false
+            },
+            {
+                "uuid": "167176AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Post-prandial blood glucose measurement (mg/dL) 1.5 hour after meal",
+                "retired": false
+            },
+            {
+                "uuid": "167174AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Post-prandial blood glucose measurement (mg/dL) 1/2 hour after meal",
+                "retired": false
+            },
+            {
+                "uuid": "167177AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Post-prandial blood glucose measurement (mg/dL) 2 hours after meal",
+                "retired": false
+            },
+            {
+                "uuid": "161481AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Prothrombin time",
+                "retired": false
+            },
+            {
+                "uuid": "163722AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Rapid test for HIV",
+                "retired": false
+            },
+            {
+                "uuid": "1643AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Rapid test for malaria",
+                "retired": false
+            },
+            {
+                "uuid": "679AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Red blood cells",
+                "retired": false
+            },
+            {
+                "uuid": "1016AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Red cell distribution width",
+                "retired": false
+            },
+            {
+                "uuid": "1327AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Reticulocytes (%)",
+                "retired": false
+            },
+            {
+                "uuid": "161470AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Rheumatoid factor",
+                "retired": false
+            },
+            {
+                "uuid": "160225AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Sickle cell screening test",
+                "retired": false
+            },
+            {
+                "uuid": "161459AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Sputum concentration for acid fast bacilli",
+                "retired": false
+            },
+            {
+                "uuid": "161460AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Sputum induction and concentration for acid fast bacilli",
+                "retired": false
+            },
+            {
+                "uuid": "159655AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Troponin T measurement",
+                "retired": false
+            },
+            {
+                "uuid": "299AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "VDRL",
+                "retired": false
+            },
+            {
+                "uuid": "678AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "White blood cells",
+                "retired": false
+            }
+        ]
+    },
+    "Urine": {
+        "parent_uuid": "159994AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "parent_name": "Urine",
+        "set_members": [
+            {
+                "uuid": "fa981970-db7e-4972-b061-01b076e2626b",
+                "name": "Drugs of abuse panel, urine",
+                "retired": false
+            },
+            {
+                "uuid": "68da084b-d93c-4b6c-bf44-1cf6c0252d16",
+                "name": "Amphetamines screen, urine",
+                "retired": false
+            },
+            {
+                "uuid": "161446AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Routine urine",
+                "retired": false
+            },
+            {
+                "uuid": "163681AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Ascorbate presence in urine test",
+                "retired": false
+            },
+            {
+                "uuid": "165561AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Bacteria in urine sediment by light microscopy",
+                "retired": false
+            },
+            {
+                "uuid": "163697AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Urine microscopy panel",
+                "retired": false
+            },
+            {
+                "uuid": "4fd6e5f5-e348-4d12-8260-d01257eef389",
+                "name": "Barbiturates screen, urine",
+                "retired": false
+            },
+            {
+                "uuid": "b91a6540-661d-45a2-9bd6-32f85f9fb814",
+                "name": "Benzodiazepines screen, urine",
+                "retired": false
+            },
+            {
+                "uuid": "163680AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Bilirubin total presence in urine by test strip",
+                "retired": false
+            },
+            {
+                "uuid": "be39081f-42d8-42ba-b6f9-859feebc0fb8",
+                "name": "Buprenorphine screen, urine",
+                "retired": false
+            },
+            {
+                "uuid": "159658AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "calcium measurement, urine",
+                "retired": false
+            },
+            {
+                "uuid": "62f39012-cf08-4bd1-8b56-8a6ef74448b7",
+                "name": "Cannabinoids (marijuana) screening, urine",
+                "retired": false
+            },
+            {
+                "uuid": "159657AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "chloride measurement, urine",
+                "retired": false
+            },
+            {
+                "uuid": "493eb6d1-c7c6-4b4a-bf7e-ac7b289ce6ee",
+                "name": "Cocaine screen, urine",
+                "retired": false
+            },
+            {
+                "uuid": "159661AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "creatinine measurement, urine, 24 hour",
+                "retired": false
+            },
+            {
+                "uuid": "2ddffa6e-258a-470d-b1ee-60767028c860",
+                "name": "Creatinine measurement, urine, random (mg/dL)",
+                "retired": false
+            },
+            {
+                "uuid": "159830AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Creatinine measurement, urine, random (mmol/L)",
+                "retired": false
+            },
+            {
+                "uuid": "165541AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Erythrocyte casts presence in urine sediment by light microscopy test",
+                "retired": false
+            },
+            {
+                "uuid": "163629AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Estrogen in 24 hour urine test",
+                "retired": false
+            },
+            {
+                "uuid": "163691AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Fatty casts presence in urine sediment by light microscopy test",
+                "retired": false
+            },
+            {
+                "uuid": "163690AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Granular casts presence in urine sediment by light microscopy test",
+                "retired": false
+            },
+            {
+                "uuid": "165540AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Hyaline casts presence in urine sediment by light microscopy test",
+                "retired": false
+            },
+            {
+                "uuid": "167209AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Leukocytes in urine sediment by light microscopy (count/HPF)",
+                "retired": false
+            },
+            {
+                "uuid": "b9e03e83-9f01-4fc9-b0bc-6ecf52c77e0d",
+                "name": "Methadone screening, urine",
+                "retired": false
+            },
+            {
+                "uuid": "111e12ba-efa1-48d8-90ab-a26c4a499015",
+                "name": "Methamphetamine screen, urine",
+                "retired": false
+            },
+            {
+                "uuid": "bd1e0c82-8eeb-4f13-962d-f9c9aa4abac2",
+                "name": "Methylenedioxymethamphetamine screen, urine",
+                "retired": false
+            },
+            {
+                "uuid": "164938AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Microalbumin in urine by test strip",
+                "retired": false
+            },
+            {
+                "uuid": "167459AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Mycobacterium tuberculosis lipoarabinomannan antigen, urine, rapid",
+                "retired": false
+            },
+            {
+                "uuid": "b3ef7eaa-beeb-406a-9dde-61e27ddcea74",
+                "name": "Opiates screen, urine",
+                "retired": false
+            },
+            {
+                "uuid": "cefcc40c-e331-42f9-a659-900d22178d98",
+                "name": "Oxycodone screen, urine",
+                "retired": false
+            },
+            {
+                "uuid": "abb61ab1-27c5-4c6e-83e9-d0e33f0b2eeb",
+                "name": "Phencyclidine screen, urine",
+                "retired": false
+            },
+            {
+                "uuid": "159659AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "potassium measurement, urine",
+                "retired": false
+            },
+            {
+                "uuid": "91ba7747-7801-4559-8445-c8050df78ff8",
+                "name": "Propoxyphene screen, urine",
+                "retired": false
+            },
+            {
+                "uuid": "167212AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Renal epithelial cells presence in urine sediment by light microscopy",
+                "retired": false
+            },
+            {
+                "uuid": "159656AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "sodium measurement, urine",
+                "retired": false
+            },
+            {
+                "uuid": "aeec6704-b9c5-430d-bf77-87335d9c9276",
+                "name": "Tricyclic antidepressants screen, urine",
+                "retired": false
+            },
+            {
+                "uuid": "302AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Urinalysis order",
+                "retired": false
+            },
+            {
+                "uuid": "165177AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Urine pH measurement",
+                "retired": false
+            },
+            {
+                "uuid": "1369AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Urobilinogen",
+                "retired": false
+            },
+            {
+                "uuid": "159660AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "volume measurement, urine, 24 hour",
+                "retired": false
+            },
+            {
+                "uuid": "163694AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Waxy casts presence in urine sediment by light microscopy test",
+                "retired": false
+            },
+            {
+                "uuid": "163693AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "WBC casts presence in urine sediment by light microscopy test",
+                "retired": false
+            },
+            {
+                "uuid": "164922AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Zika virus real time RT-PCR in urine",
+                "retired": false
+            },
+            {
+                "uuid": "164948AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Albumin/creatinine ratio (mass ratio) in 24 hour urine",
+                "retired": false
+            },
+            {
+                "uuid": "160735AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Bacteriuria test, urine",
+                "retired": false
+            },
+            {
+                "uuid": "163696AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Casts presence in urine sediment by light microscopy test",
+                "retired": false
+            },
+            {
+                "uuid": "161134AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Creatinine clearance test",
+                "retired": false
+            },
+            {
+                "uuid": "163695AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Crystals type in urine sediment by light microscopy test",
+                "retired": false
+            },
+            {
+                "uuid": "161156AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Culture and sensitivity, urine",
+                "retired": false
+            },
+            {
+                "uuid": "163692AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Epithelial casts presence in urine sediment by light microscopy test",
+                "retired": false
+            },
+            {
+                "uuid": "163685AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Epithelial cells presence in urine sediment by light microscopy test",
+                "retired": false
+            },
+            {
+                "uuid": "167210AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Erythrocytes in urine sediment by light microscopy (count/HPF)",
+                "retired": false
+            },
+            {
+                "uuid": "163683AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Erythrocytes presence in urine sediment by light microscopy test",
+                "retired": false
+            },
+            {
+                "uuid": "159734AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Glucose measurement, qualitative, urine",
+                "retired": false
+            },
+            {
+                "uuid": "159733AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Glucose measurement, quantitative, urine",
+                "retired": false
+            },
+            {
+                "uuid": "163684AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Leukocytes presence in urine sediment by light microscopy",
+                "retired": false
+            },
+            {
+                "uuid": "164947AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Semiquantitative urine albumin calculated by albumin/creatinine ratio",
+                "retired": false
+            },
+            {
+                "uuid": "163688AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Spore presence in urine test",
+                "retired": false
+            },
+            {
+                "uuid": "163689AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Trichomonas vaginalis presence in urine sediment by light microscopy",
+                "retired": false
+            },
+            {
+                "uuid": "849AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Urinary albumin",
+                "retired": false
+            },
+            {
+                "uuid": "161443AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Urine bile pigment test",
+                "retired": false
+            },
+            {
+                "uuid": "161444AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Urine bile salt test",
+                "retired": false
+            },
+            {
+                "uuid": "162106AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Urine color",
+                "retired": false
+            },
+            {
+                "uuid": "165392AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Urine culture and sensitivity, organisms coded",
+                "retired": false
+            },
+            {
+                "uuid": "162096AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Urine dipstick for blood",
+                "retired": false
+            },
+            {
+                "uuid": "165304AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Urine gram stain",
+                "retired": false
+            },
+            {
+                "uuid": "161442AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Urine ketone test",
+                "retired": false
+            },
+            {
+                "uuid": "161441AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Urine leukocyte esterase test",
+                "retired": false
+            },
+            {
+                "uuid": "56AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Urine microscopy",
+                "retired": false
+            },
+            {
+                "uuid": "161440AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Urine nitrite test",
+                "retired": false
+            },
+            {
+                "uuid": "161438AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Urine pH",
+                "retired": false
+            },
+            {
+                "uuid": "45AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Urine pregnancy test",
+                "retired": false
+            },
+            {
+                "uuid": "1875AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Urine protein (dipstick)",
+                "retired": false
+            },
+            {
+                "uuid": "167183AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Urine protein, 24 hour specimen (g)",
+                "retired": false
+            },
+            {
+                "uuid": "161445AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Urine routine and microscopy",
+                "retired": false
+            },
+            {
+                "uuid": "161439AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Urine specific gravity",
+                "retired": false
+            },
+            {
+                "uuid": "163682AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Urobilinogen presence in urine test",
+                "retired": false
+            },
+            {
+                "uuid": "163687AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Yeast hyphae presence in urine sediment by light microscopy test",
+                "retired": false
+            },
+            {
+                "uuid": "163686AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Yeast presence in urine sediment by light microscopy",
+                "retired": false
+            }
+        ]
+    },
+    "Serum": {
+        "parent_uuid": "1001AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "parent_name": "Serum",
+        "set_members": [
+            {
+                "uuid": "161510AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Carcinoembryonic antigen",
+                "retired": false
+            },
+            {
+                "uuid": "163437AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Alpha 1 globulin level",
+                "retired": false
+            },
+            {
+                "uuid": "161475AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Hepatitis B serological test",
+                "retired": false
+            },
+            {
+                "uuid": "163438AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Alpha 2 globulin level",
+                "retired": false
+            },
+            {
+                "uuid": "161474AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Hepatitis C serological test",
+                "retired": false
+            },
+            {
+                "uuid": "159864AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Antibody test for Brucella abortus",
+                "retired": false
+            },
+            {
+                "uuid": "161480AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Human immunodeficiency virus serological test",
+                "retired": false
+            },
+            {
+                "uuid": "159863AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Antibody test for Brucella melitensis",
+                "retired": false
+            },
+            {
+                "uuid": "161483AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Serum chemistry panel",
+                "retired": false
+            },
+            {
+                "uuid": "159824AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "apolipoprotein A1, serum",
+                "retired": false
+            },
+            {
+                "uuid": "161509AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Serum human chorionic gonadotropin",
+                "retired": false
+            },
+            {
+                "uuid": "159823AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "apolipoprotein B, serum",
+                "retired": false
+            },
+            {
+                "uuid": "161512AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Serum iron profile",
+                "retired": false
+            },
+            {
+                "uuid": "ff910613-be23-4a0f-9590-951536e5d084",
+                "name": "C-peptide in serum/plasma (ng/mL)",
+                "retired": false
+            },
+            {
+                "uuid": "161532AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Serum TORCH panel",
+                "retired": false
+            },
+            {
+                "uuid": "166023AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Calculation of model for end-stage liver disease (MELD) score",
+                "retired": false
+            },
+            {
+                "uuid": "161533AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Serum TORCHS panel",
+                "retired": false
+            },
+            {
+                "uuid": "164924AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Chikungunya virus real time RT-PCR in serum or plasma",
+                "retired": false
+            },
+            {
+                "uuid": "2737efd6-407c-40d7-9ec2-01a74eb835ef",
+                "name": "Soluble fms-like tyrosine kinase-1 and placental growth factor panel",
+                "retired": false
+            },
+            {
+                "uuid": "163612AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Clostridium difficile toxin A+B presence in serum by immunoassay test",
+                "retired": false
+            },
+            {
+                "uuid": "161476AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Syphilis serological panel",
+                "retired": false
+            },
+            {
+                "uuid": "163613AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Cryptococcus Sp Ag presence in serum test, text",
+                "retired": false
+            },
+            {
+                "uuid": "163625AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Toxoplasma Gondii IgG And IgM Panel - Serum",
+                "retired": false
+            },
+            {
+                "uuid": "163616AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Dengue virus IgG Ab presence in serum",
+                "retired": false
+            },
+            {
+                "uuid": "161477AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Typhoid serological test",
+                "retired": false
+            },
+            {
+                "uuid": "163617AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Dengue virus IgM Ab presence in serum",
+                "retired": false
+            },
+            {
+                "uuid": "161497AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Cancer marker panel",
+                "retired": false
+            },
+            {
+                "uuid": "165838AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Detection in serum or plasma of either or both IgG and IgM antibodies to severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) by immunoassay",
+                "retired": false
+            },
+            {
+                "uuid": "161498AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Creatinine phosphokinase measurement",
+                "retired": false
+            },
+            {
+                "uuid": "166198AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Detection in serum or plasma of neutralizing antibody to severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) spike protein receptor-binding domain by immunoassay",
+                "retired": false
+            },
+            {
+                "uuid": "1010AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Lipid panel",
+                "retired": false
+            },
+            {
+                "uuid": "162598AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Ebola virus IgG in serum by immunoassay",
+                "retired": false
+            },
+            {
+                "uuid": "953AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Liver function tests",
+                "retired": false
+            },
+            {
+                "uuid": "162597AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Ebola virus IgM in serum by immunoassay",
+                "retired": false
+            },
+            {
+                "uuid": "161488AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Renal function panel",
+                "retired": false
+            },
+            {
+                "uuid": "162599AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Ebola virus RNA by polymerase chain reaction",
+                "retired": false
+            },
+            {
+                "uuid": "5473AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Serum electrolytes",
+                "retired": false
+            },
+            {
+                "uuid": "5d1ca28b-a870-4d37-8d4c-50f50fe17d90",
+                "name": "Free prostate specific antigen (PSA) measurement (ng/mL)",
+                "retired": false
+            },
+            {
+                "uuid": "161506AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Thyroid panel",
+                "retired": false
+            },
+            {
+                "uuid": "7e72dd92-4cab-4b22-a82e-73641f652951",
+                "name": "Free prostate specific antigen (PSA) measurement, serum/plasma (ng/mL)",
+                "retired": false
+            },
+            {
+                "uuid": "161495AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Antinuclear antibodies",
+                "retired": false
+            },
+            {
+                "uuid": "160053AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Glucose measurement, serum, fasting (mmol/dL)",
+                "retired": false
+            },
+            {
+                "uuid": "161492AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Leutinizing hormone panel",
+                "retired": false
+            },
+            {
+                "uuid": "1035AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Herpes simplex virus serology, quantitative",
+                "retired": false
+            },
+            {
+                "uuid": "163614AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Heterophile Ab presence in serum test",
+                "retired": false
+            },
+            {
+                "uuid": "163627AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Human T-lymphotropic virus (HTLV) 1+2 Ab presence in serum by immunoassay test",
+                "retired": false
+            },
+            {
+                "uuid": "163001AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Indirect bilirubin in serum or plasma",
+                "retired": false
+            },
+            {
+                "uuid": "165954AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Interleukin 6 measurement, serum/plasma (mass/volume)",
+                "retired": false
+            },
+            {
+                "uuid": "1bbcf488-0d7a-4088-80ae-a55e1f10d0a0",
+                "name": "Ionized calcium, serum/plasma (mmol/L)",
+                "retired": false
+            },
+            {
+                "uuid": "75fce7cf-2087-4261-8cd1-50ad8378642f",
+                "name": "Placental growth factor, serum (pg/mL)",
+                "retired": false
+            },
+            {
+                "uuid": "159826AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "prealbumin, serum",
+                "retired": false
+            },
+            {
+                "uuid": "165953AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Procalcitonin measurement, serum/plasma",
+                "retired": false
+            },
+            {
+                "uuid": "165853AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Rapid detection in serum or plasma of either or both IgG and IgM antibodies to severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) by immunoassay",
+                "retired": false
+            },
+            {
+                "uuid": "163414AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "rK39 Rapid diagnostic test",
+                "retired": false
+            },
+            {
+                "uuid": "192AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "serologic test for herpes virus",
+                "retired": false
+            },
+            {
+                "uuid": "166123AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Serotonin release assay for platelet antibody",
+                "retired": false
+            },
+            {
+                "uuid": "159828AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Serum iron measurement (ug/dL)",
+                "retired": false
+            },
+            {
+                "uuid": "166396AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Serum iron measurement (umol/L)",
+                "retired": false
+            },
+            {
+                "uuid": "1012AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Serum lactate",
+                "retired": false
+            },
+            {
+                "uuid": "41b2e571-c83b-4283-b781-9580edba0ad2",
+                "name": "Serum lactate (mg/dL)",
+                "retired": false
+            },
+            {
+                "uuid": "163592AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Serum lithium",
+                "retired": false
+            },
+            {
+                "uuid": "166397AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Serum magnesium measurement (mg/dL)",
+                "retired": false
+            },
+            {
+                "uuid": "166045AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Serum or plasma low-density lipoprotein cholesterol measurement (mg/dL)",
+                "retired": false
+            },
+            {
+                "uuid": "165896AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Serum or plasma severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) IgA antibody detection by immunoassay",
+                "retired": false
+            },
+            {
+                "uuid": "165835AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Serum or plasma severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) IgG antibody detection by immunoassay",
+                "retired": false
+            },
+            {
+                "uuid": "165898AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Serum or plasma severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) IgG antibody detection by rapid immunoassay",
+                "retired": false
+            },
+            {
+                "uuid": "165836AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Serum or plasma severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) IgG antibody measurement by immunoassay (units/volume)",
+                "retired": false
+            },
+            {
+                "uuid": "165837AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Serum or plasma severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) IgM antibody detection by immunoassay",
+                "retired": false
+            },
+            {
+                "uuid": "165899AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Serum or plasma severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) IgM antibody detection by rapid immunoassay",
+                "retired": false
+            },
+            {
+                "uuid": "165839AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Serum or plasma severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) IgM antibody measurement by immunoassay (units/volume)",
+                "retired": false
+            },
+            {
+                "uuid": "166040AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Serum or plasma total cholesterol measurement (mg/dL)",
+                "retired": false
+            },
+            {
+                "uuid": "166039AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Serum or plasma triglyceride measurement (mg/dL)",
+                "retired": false
+            },
+            {
+                "uuid": "165176AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Serum pH measurement",
+                "retired": false
+            },
+            {
+                "uuid": "1945AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Serum Pregnancy Test, Qualitative",
+                "retired": false
+            },
+            {
+                "uuid": "165611AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Serum SARS-CoV-2 nucleic acid assay by real time reverse transcriptase PCR",
+                "retired": false
+            },
+            {
+                "uuid": "166399AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) IgG antibody measurement in serum or plasma by immunoassay (mass/volume)",
+                "retired": false
+            },
+            {
+                "uuid": "7ba984c7-b7c8-4035-9832-4027cc008ebe",
+                "name": "Soluble fms-like tyrosine kinase-1, serum (pg/mL)",
+                "retired": false
+            },
+            {
+                "uuid": "76f72e30-bd9d-47f3-b707-ed090a2c730f",
+                "name": "Soluble fms-like tyrosine kinase-1/placental growth factor, serum",
+                "retired": false
+            },
+            {
+                "uuid": "161531AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Syphilis IgG",
+                "retired": false
+            },
+            {
+                "uuid": "161530AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Syphilis IgM",
+                "retired": false
+            },
+            {
+                "uuid": "8dd4eb66-dbe1-4f95-910f-92f5b36b50b0",
+                "name": "Thyrotropin, serum/plasma (uIU/mL) (mIU/L)",
+                "retired": false
+            },
+            {
+                "uuid": "ff75ee83-34ba-46f3-8076-153460291e20",
+                "name": "Total prostate specific antigen (PSA) measurement, serum/plasma (ng/mL)",
+                "retired": false
+            },
+            {
+                "uuid": "d92b1eb4-0357-4021-a57e-6795e38e7f14",
+                "name": "Total thyroxine (T4), serum/plasma (nmol/L)",
+                "retired": false
+            },
+            {
+                "uuid": "eb225587-7072-4947-9d3e-0115142c07e3",
+                "name": "Total triiodothyronine (T3), serum/plasma (nmol/L)",
+                "retired": false
+            },
+            {
+                "uuid": "163626AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Treponema pallidum Ab presence in serum by immunofluorescence test",
+                "retired": false
+            },
+            {
+                "uuid": "1031AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Treponema pallidum hemagglutination assay",
+                "retired": false
+            },
+            {
+                "uuid": "1032AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Treponema pallidum hemagglutination assay, qualitative",
+                "retired": false
+            },
+            {
+                "uuid": "1029AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "VDRL titre",
+                "retired": false
+            },
+            {
+                "uuid": "306AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Widal test",
+                "retired": false
+            },
+            {
+                "uuid": "164934AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Zika virus IgG antibody measurement in serum by neutralization",
+                "retired": false
+            },
+            {
+                "uuid": "164930AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Zika virus IgM antibody measurement in serum by immunoassay",
+                "retired": false
+            },
+            {
+                "uuid": "160916AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Albumin/Globulin ratio",
+                "retired": false
+            },
+            {
+                "uuid": "785AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Alkaline phosphatase",
+                "retired": false
+            },
+            {
+                "uuid": "160917AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Alpha-1-fetoprotein measurement (ng/mL)",
+                "retired": false
+            },
+            {
+                "uuid": "1299AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Amylase",
+                "retired": false
+            },
+            {
+                "uuid": "161469AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Anti-streptolysin O titer",
+                "retired": false
+            },
+            {
+                "uuid": "161494AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Antinuclear antibody test",
+                "retired": false
+            },
+            {
+                "uuid": "857AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Blood urea nitrogen",
+                "retired": false
+            },
+            {
+                "uuid": "161500AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "C-reactive protein",
+                "retired": false
+            },
+            {
+                "uuid": "160919AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Cancer antigen 125 measurement (units/mL)",
+                "retired": false
+            },
+            {
+                "uuid": "160920AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Cancer antigen 15-3 measurement (units/mL)",
+                "retired": false
+            },
+            {
+                "uuid": "160921AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Cancer antigen 19-9 measurement (units/mL)",
+                "retired": false
+            },
+            {
+                "uuid": "160915AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Carcinoembryonic antigen (CEA) measurement (ng/mL)",
+                "retired": false
+            },
+            {
+                "uuid": "163618AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Chlamydia trachomatis Ab presence in serum by immunofluorescence test",
+                "retired": false
+            },
+            {
+                "uuid": "163600AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Complement component 3",
+                "retired": false
+            },
+            {
+                "uuid": "163601AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Complement component 4",
+                "retired": false
+            },
+            {
+                "uuid": "1011AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Creatine kinase",
+                "retired": false
+            },
+            {
+                "uuid": "159653AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Creatine kinase, isoenzyme MB fraction",
+                "retired": false
+            },
+            {
+                "uuid": "164926AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Dengue virus real time RT-PCR in serum or plasma",
+                "retired": false
+            },
+            {
+                "uuid": "1297AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Direct bilirubin",
+                "retired": false
+            },
+            {
+                "uuid": "161489AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Follicle stimulating hormone test",
+                "retired": false
+            },
+            {
+                "uuid": "159829AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "gamma glutamyl transpeptidase, serum",
+                "retired": false
+            },
+            {
+                "uuid": "163620AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Helicobacter Pylori Ab presence in serum by immunofluorescence test",
+                "retired": false
+            },
+            {
+                "uuid": "159430AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Hepatitis B Surface Antigen Test",
+                "retired": false
+            },
+            {
+                "uuid": "1325AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Hepatitis C test - qualitative",
+                "retired": false
+            },
+            {
+                "uuid": "908AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Herpes simplex virus, qualitative",
+                "retired": false
+            },
+            {
+                "uuid": "1007AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "High-density lipoprotein cholesterol measurement (mmol/L)",
+                "retired": false
+            },
+            {
+                "uuid": "160922AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Human chorionic gonadotropin measurement",
+                "retired": false
+            },
+            {
+                "uuid": "1014AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Lactate dehydrogenase",
+                "retired": false
+            },
+            {
+                "uuid": "161490AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Leutinizing hormone test",
+                "retired": false
+            },
+            {
+                "uuid": "1008AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Low-density lipoprotein cholesterol (mmol/L)",
+                "retired": false
+            },
+            {
+                "uuid": "160913AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Prostate specific antigen (PSA) measurement (ng/mL)",
+                "retired": false
+            },
+            {
+                "uuid": "1619AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Rapid plasma reagin",
+                "retired": false
+            },
+            {
+                "uuid": "848AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Serum albumin",
+                "retired": false
+            },
+            {
+                "uuid": "159497AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Serum calcium",
+                "retired": false
+            },
+            {
+                "uuid": "166038AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Serum calcium (mmol/L)",
+                "retired": false
+            },
+            {
+                "uuid": "1135AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Serum carbon dioxide",
+                "retired": false
+            },
+            {
+                "uuid": "161507AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Serum ceruloplasmin",
+                "retired": false
+            },
+            {
+                "uuid": "1134AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Serum chloride",
+                "retired": false
+            },
+            {
+                "uuid": "164364AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Serum creatinine (mg/dL)",
+                "retired": false
+            },
+            {
+                "uuid": "790AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Serum creatinine (umol/L)",
+                "retired": false
+            },
+            {
+                "uuid": "161511AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Serum ferritin",
+                "retired": false
+            },
+            {
+                "uuid": "887AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Serum glucose",
+                "retired": false
+            },
+            {
+                "uuid": "1458AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Serum glucose (mmol)",
+                "retired": false
+            },
+            {
+                "uuid": "653AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Serum glutamic-oxaloacetic transaminase",
+                "retired": false
+            },
+            {
+                "uuid": "654AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Serum glutamic-pyruvic transaminase",
+                "retired": false
+            },
+            {
+                "uuid": "1013AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Serum lipase",
+                "retired": false
+            },
+            {
+                "uuid": "159643AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Serum magnesium measurement",
+                "retired": false
+            },
+            {
+                "uuid": "161154AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Serum phosphorous",
+                "retired": false
+            },
+            {
+                "uuid": "1133AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Serum potassium",
+                "retired": false
+            },
+            {
+                "uuid": "161516AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Serum prolactin",
+                "retired": false
+            },
+            {
+                "uuid": "1132AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Serum sodium",
+                "retired": false
+            },
+            {
+                "uuid": "161502AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Thyroid function test",
+                "retired": false
+            },
+            {
+                "uuid": "161505AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Thyroid stimulating hormone test",
+                "retired": false
+            },
+            {
+                "uuid": "161504AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Thyroxine test",
+                "retired": false
+            },
+            {
+                "uuid": "655AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Total bilirubin",
+                "retired": false
+            },
+            {
+                "uuid": "1006AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Total cholesterol (mmol/L)",
+                "retired": false
+            },
+            {
+                "uuid": "717AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Total protein",
+                "retired": false
+            },
+            {
+                "uuid": "161522AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Toxoplasma IgG",
+                "retired": false
+            },
+            {
+                "uuid": "161523AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Toxoplasma IgM",
+                "retired": false
+            },
+            {
+                "uuid": "161503AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Tri-iodothyronine test",
+                "retired": false
+            },
+            {
+                "uuid": "1009AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Triglycerides (mmol/L)",
+                "retired": false
+            },
+            {
+                "uuid": "159654AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Troponin I measurement",
+                "retired": false
+            },
+            {
+                "uuid": "163699AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Urea measurement (calculated)",
+                "retired": false
+            },
+            {
+                "uuid": "159825AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "uric acid, serum",
+                "retired": false
+            },
+            {
+                "uuid": "1298AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Very low density lipoprotein measurement (mmol/L)",
+                "retired": false
+            },
+            {
+                "uuid": "163435AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Vitamin B12 level test",
+                "retired": false
+            },
+            {
+                "uuid": "163676AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Latex agglutination test",
+                "retired": false
+            }
+        ]
+    },
+    "Sputum": {
+        "parent_uuid": "1004AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "parent_name": "Sputum",
+        "set_members": [
+            {
+                "uuid": "159981AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Tuberculosis culture construct",
+                "retired": false
+            },
+            {
+                "uuid": "159870AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Sputum for acid fast bacilli, eight months",
+                "retired": false
+            },
+            {
+                "uuid": "159869AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Sputum for acid fast bacilli, five months",
+                "retired": false
+            },
+            {
+                "uuid": "159865AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "sputum for acid fast bacilli, test after treatment started",
+                "retired": false
+            },
+            {
+                "uuid": "159868AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Sputum for acid fast bacilli, three months",
+                "retired": false
+            },
+            {
+                "uuid": "159867AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Sputum for acid fast bacilli, two months",
+                "retired": false
+            },
+            {
+                "uuid": "159866AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Sputum for acid fast bacilli, zero month",
+                "retired": false
+            },
+            {
+                "uuid": "162202AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Tuberculosis polymerase chain reaction with rifampin resistance checking",
+                "retired": false
+            },
+            {
+                "uuid": "159858AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "tuberculosis polymerase chain reaction, qualitative",
+                "retired": false
+            },
+            {
+                "uuid": "307AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Sputum for acid fast bacilli",
+                "retired": false
+            },
+            {
+                "uuid": "1367AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Sputum gram stain",
+                "retired": false
+            },
+            {
+                "uuid": "159984AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Tuberculosis drug sensitivity test results",
+                "retired": false
+            },
+            {
+                "uuid": "166550AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Antibiotic susceptibility test",
+                "retired": false
+            }
+        ]
+    },
+    "Plasma": {
+        "parent_uuid": "1002AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "parent_name": "Plasma",
+        "set_members": [
+            {
+                "uuid": "162827AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Ebola L gene PCR cycle threshold value",
+                "retired": false
+            },
+            {
+                "uuid": "162826AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Ebola Nucleoprotein gene PCR cyclic threshold value",
+                "retired": false
+            },
+            {
+                "uuid": "161926AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Fresh frozen plasma",
+                "retired": false
+            },
+            {
+                "uuid": "159827AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "lipoprotein A, plasma",
+                "retired": false
+            },
+            {
+                "uuid": "166376AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Plasma thrombin time (seconds)",
+                "retired": false
+            },
+            {
+                "uuid": "163669AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Urea-tryptophan test",
+                "retired": false
+            }
+        ]
+    },
+    "Semen": {
+        "parent_uuid": "163368AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "parent_name": "Semen",
+        "set_members": [
+            {
+                "uuid": "161468AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Semen analysis test",
+                "retired": false
+            },
+            {
+                "uuid": "163658AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Liquefaction [time] in semen",
+                "retired": false
+            },
+            {
+                "uuid": "163662AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Percentage of normal spermatozoa in semen",
+                "retired": false
+            },
+            {
+                "uuid": "161467AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Semen analysis",
+                "retired": false
+            },
+            {
+                "uuid": "163659AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Semen fructose level",
+                "retired": false
+            },
+            {
+                "uuid": "163661AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Sperm count",
+                "retired": false
+            },
+            {
+                "uuid": "163663AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Spermatozoa motility",
+                "retired": false
+            }
+        ]
+    },
+    "Cerebrospinal fluid": {
+        "parent_uuid": "159995AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "parent_name": "Cerebrospinal fluid",
+        "set_members": [
+            {
+                "uuid": "159645AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Cerebrospinal Fluid Examination",
+                "retired": false
+            },
+            {
+                "uuid": "161466AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Cerebrospinal fluid AFB stain",
+                "retired": false
+            },
+            {
+                "uuid": "161151AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Cerebrospinal fluid analysis, cytospin",
+                "retired": false
+            },
+            {
+                "uuid": "159650AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "cerebrospinal fluid appearance",
+                "retired": false
+            },
+            {
+                "uuid": "159648AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "cerebrospinal fluid bacterial culture",
+                "retired": false
+            },
+            {
+                "uuid": "159651AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "cerebrospinal fluid cell count",
+                "retired": false
+            },
+            {
+                "uuid": "166556AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Cerebrospinal fluid Cryptococcus antigen assay",
+                "retired": false
+            },
+            {
+                "uuid": "159647AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Cerebrospinal fluid glucose",
+                "retired": false
+            },
+            {
+                "uuid": "159649AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "cerebrospinal fluid microscopy",
+                "retired": false
+            },
+            {
+                "uuid": "159652AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "cerebrospinal fluid pressure",
+                "retired": false
+            },
+            {
+                "uuid": "159646AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "cerebrospinal fluid protein measurement",
+                "retired": false
+            },
+            {
+                "uuid": "164925AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Chikungunya virus real time RT-PCR in cerebrospinal fluid",
+                "retired": false
+            },
+            {
+                "uuid": "167207AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Cryptococcus detection by India ink preparation",
+                "retired": false
+            },
+            {
+                "uuid": "167208AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Cryptococcus detection in cerebrospinal fluid (CSF) by India ink preparation",
+                "retired": false
+            },
+            {
+                "uuid": "164927AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Dengue virus real time RT-PCR in cerebrospinal fluid",
+                "retired": false
+            },
+            {
+                "uuid": "164921AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Zika virus real time RT-PCR in cerebrospinal fluid",
+                "retired": false
+            }
+        ]
+    },
+    "Feces": {
+        "parent_uuid": "159993AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "parent_name": "Feces",
+        "set_members": [
+            {
+                "uuid": "ca247755-2a2e-4fcf-b1ea-fa4cdd5e4395",
+                "name": "Rotavirus antigen presence in stool",
+                "retired": false
+            },
+            {
+                "uuid": "161451AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Stool test",
+                "retired": false
+            },
+            {
+                "uuid": "165562AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Salmonella typhi rapid diagnostic test",
+                "retired": false
+            },
+            {
+                "uuid": "e03fe74d-f47b-4010-bda9-84d3e126fa16",
+                "name": "Schistosoma species identification in stool by concentration method",
+                "retired": false
+            },
+            {
+                "uuid": "163603AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Stool culture (bacterial)",
+                "retired": false
+            },
+            {
+                "uuid": "167330AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Stool for ova and parasites with concentration",
+                "retired": false
+            },
+            {
+                "uuid": "167349AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Ancylostoma duodenale in stool by light microscopy",
+                "retired": false
+            },
+            {
+                "uuid": "167348AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Ascaris lumbricoides in stool by light microscopy",
+                "retired": false
+            },
+            {
+                "uuid": "167357AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Balantidium coli in stool by light microscopy",
+                "retired": false
+            },
+            {
+                "uuid": "167359AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Chilomastix mesnili in stool by light microscopy",
+                "retired": false
+            },
+            {
+                "uuid": "163633AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Cryptosporidium parvum identified in stool test",
+                "retired": false
+            },
+            {
+                "uuid": "167360AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Dientamoeba fragilis in stool by iight microscopy",
+                "retired": false
+            },
+            {
+                "uuid": "167352AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Endolimax nana in stool by light microscopy",
+                "retired": false
+            },
+            {
+                "uuid": "167358AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Entamoeba coli in stool by light microscopy",
+                "retired": false
+            },
+            {
+                "uuid": "167363AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Entamoeba histolytica in stool by light microscopy",
+                "retired": false
+            },
+            {
+                "uuid": "167356AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Enterobius vermicularis in stool by light microscopy",
+                "retired": false
+            },
+            {
+                "uuid": "159362AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Fecal occult blood test",
+                "retired": false
+            },
+            {
+                "uuid": "167364AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Giardia lamblia in stool by light microscopy",
+                "retired": false
+            },
+            {
+                "uuid": "161454AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Gram stain",
+                "retired": false
+            },
+            {
+                "uuid": "163348AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Helicobacter pylori Antigen Test in Stool",
+                "retired": false
+            },
+            {
+                "uuid": "167351AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Hymenolepis nana in stool by light microscopy",
+                "retired": false
+            },
+            {
+                "uuid": "161448AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Kinyoun's stain for coccidians",
+                "retired": false
+            },
+            {
+                "uuid": "163634AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Leukocytes presence in stool by methylene blue stain test",
+                "retired": false
+            },
+            {
+                "uuid": "304AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Stool exam",
+                "retired": false
+            },
+            {
+                "uuid": "161450AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Stool fat test, semi-quantitative",
+                "retired": false
+            },
+            {
+                "uuid": "1368AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Stool for ova and cysts, qualitative",
+                "retired": false
+            },
+            {
+                "uuid": "161447AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Stool microscopy with concentration",
+                "retired": false
+            },
+            {
+                "uuid": "166401AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Stool test for erythrocytes",
+                "retired": false
+            },
+            {
+                "uuid": "161449AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Stool test for reducing substance",
+                "retired": false
+            },
+            {
+                "uuid": "167355AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Strongyloide stercoralis in stool by light microscopy",
+                "retired": false
+            },
+            {
+                "uuid": "167354AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Taenia saginata in stool by light microscopy",
+                "retired": false
+            },
+            {
+                "uuid": "167353AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Taenia solium in stool by light microscopy",
+                "retired": false
+            },
+            {
+                "uuid": "167362AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Trichomonas intestinalis in stool by light microscopy",
+                "retired": false
+            },
+            {
+                "uuid": "167350AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Trichuris trichiura in stool by light microscopy",
+                "retired": false
+            },
+            {
+                "uuid": "167365AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Vibrio cholerae in stool by light microscopy",
+                "retired": false
+            }
+        ]
+    },
+    "saliva": {
+        "parent_uuid": "160013AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "parent_name": "saliva",
+        "set_members": [
+            {
+                "uuid": "165981AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Saliva severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) RNA detection by probe and target amplification method",
+                "retired": false
+            }
+        ]
+    },
+    "Pus specimen": {
+        "parent_uuid": "d2946308-8730-4767-a8e9-a515ccd0be0f",
+        "parent_name": "Pus specimen",
+        "set_members": [
+            {
+                "uuid": "161454AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Gram stain",
+                "retired": false
+            },
+            {
+                "uuid": "161484AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Pus culture and sensitivity",
+                "retired": false
+            }
+        ]
+    },
+    "Body fluid specimen": {
+        "parent_uuid": "163370AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "parent_name": "Body fluid specimen",
+        "set_members": [
+            {
+                "uuid": "167377AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Studded epithelial cells, presence in body fluid",
+                "retired": false
+            },
+            {
+                "uuid": "161485AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Body fluid culture and sensitivity",
+                "retired": false
+            },
+            {
+                "uuid": "167376AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Epithelial cells, presence in body fluid",
+                "retired": false
+            }
+        ]
+    },
+    "Amniotic fluid specimen": {
+        "parent_uuid": "9856203a-85c7-4adb-9732-e06d4b12f930",
+        "parent_name": "Amniotic fluid specimen",
+        "set_members": [
+            {
+                "uuid": "160918AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Amniotic fluid alpha fetoprotein measurement, antenatal (IU/mL)",
+                "retired": false
+            },
+            {
+                "uuid": "164923AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Zika virus real time RT-PCR in amniotic fluid",
+                "retired": false
+            }
+        ]
+    },
+    "Urethral fluid": {
+        "parent_uuid": "4a716a48-08db-4ecb-b1ae-5b528f369d88",
+        "parent_name": "Urethral fluid",
+        "set_members": [
+            {
+                "uuid": "163698AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Urethral fluid pH test",
+                "retired": false
+            }
+        ]
+    },
+    "Vaginal fluid": {
+        "parent_uuid": "163350AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "parent_name": "Vaginal fluid",
+        "set_members": [
+            {
+                "uuid": "161458AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Vaginal fluid examination",
+                "retired": false
+            },
+            {
+                "uuid": "163649AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Hyphae in microscopy of saline mount",
+                "retired": false
+            },
+            {
+                "uuid": "163651AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Trichomonas hominis in microscopy of saline mount",
+                "retired": false
+            },
+            {
+                "uuid": "163648AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Trichomonas vaginalis in microscopy of saline mount",
+                "retired": false
+            },
+            {
+                "uuid": "1043AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Trichomonas vaginalis polymerase chain reaction",
+                "retired": false
+            },
+            {
+                "uuid": "1039AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Trichomonas vaginalis polymerase chain reaction, qualitative",
+                "retired": false
+            },
+            {
+                "uuid": "161457AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Vaginal fluid leukocyte esterase test",
+                "retired": false
+            },
+            {
+                "uuid": "161455AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Vaginal fluid pH test",
+                "retired": false
+            },
+            {
+                "uuid": "161456AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Vaginal fluid whiff test",
+                "retired": false
+            },
+            {
+                "uuid": "163647AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Budding yeast in microscopy of saline mount",
+                "retired": false
+            },
+            {
+                "uuid": "163650AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Epithelial cells in microscopy of saline mount",
+                "retired": false
+            },
+            {
+                "uuid": "161453AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Microscopy of KOH mount",
+                "retired": false
+            },
+            {
+                "uuid": "161452AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Microscopy of saline mount",
+                "retired": false
+            },
+            {
+                "uuid": "163646AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Simple yeast in microscopy of saline mount",
+                "retired": false
+            }
+        ]
+    },
+    "Tissue Specimen": {
+        "parent_uuid": "1d372353-ff56-49d4-97dd-5274fd460156",
+        "parent_name": "Tissue Specimen",
+        "set_members": [
+            {
+                "uuid": "161199AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Cytopathology",
+                "retired": false
+            },
+            {
+                "uuid": "161158AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Estrogen Receptor Assay",
+                "retired": false
+            },
+            {
+                "uuid": "161513AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Fine needle aspiration cytology (FNAC)",
+                "retired": false
+            },
+            {
+                "uuid": "161160AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Human epidermal growth factor receptor 2 gene detection by immunohistochemistry",
+                "retired": false
+            },
+            {
+                "uuid": "161159AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Progesterone Receptor Assay",
+                "retired": false
+            },
+            {
+                "uuid": "161168AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Renal biopsy",
+                "retired": false
+            },
+            {
+                "uuid": "166591AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Trephine biopsy",
+                "retired": false
+            }
+        ]
+    },
+    "Nasopharyngeal Swab": {
+        "parent_uuid": "163364AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "parent_name": "Nasopharyngeal Swab",
+        "set_members": [
+            {
+                "uuid": "165859AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Abbott RealTime SARS-CoV-2 test",
+                "retired": false
+            },
+            {
+                "uuid": "165861AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Hologic Panther Fusion® SARS-CoV-2 test",
+                "retired": false
+            },
+            {
+                "uuid": "165852AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Respiratory specimen severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) antigen rapid diagnostic test",
+                "retired": false
+            },
+            {
+                "uuid": "165841AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Respiratory specimen severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) N gene detection by probe and target amplification method",
+                "retired": false
+            },
+            {
+                "uuid": "165842AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Respiratory specimen severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) RdRp gene detection by probe and target amplification method",
+                "retired": false
+            },
+            {
+                "uuid": "165840AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Respiratory specimen severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) RNA detection by probe and target amplification method",
+                "retired": false
+            },
+            {
+                "uuid": "165895AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Roche cobas® SARS-CoV-2 test",
+                "retired": false
+            },
+            {
+                "uuid": "165865AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Xpert® Xpress SARS-CoV-2 antigen test",
+                "retired": false
+            }
+        ]
+    },
+    "Cervical Swab": {
+        "parent_uuid": "163365AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "parent_name": "Cervical Swab",
+        "set_members": [
+            {
+                "uuid": "885AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Papanicolaou smear",
+                "retired": false
+            }
+        ]
+    },
+    "Skin Specimen": {
+        "parent_uuid": "43d31d4d-01a0-47b1-854f-545d57a0c78f",
+        "parent_name": "Skin Specimen",
+        "set_members": [
+            {
+                "uuid": "161463AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Skin fungal test",
+                "retired": false
+            },
+            {
+                "uuid": "151556AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Hypersensitivity skin test",
+                "retired": false
+            },
+            {
+                "uuid": "161464AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Skin mycobacterial test",
+                "retired": false
+            },
+            {
+                "uuid": "161462AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Slit skin smear for acid fast bacilli",
+                "retired": false
+            },
+            {
+                "uuid": "163631AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Tuberculin skin test panel",
+                "retired": false
+            },
+            {
+                "uuid": "165539AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Wet mount of skin snip for Onchocerca",
+                "retired": false
+            }
+        ]
+    },
+    "Other Specimen": {
+        "parent_uuid": "8578dd94-a066-4851-bb9f-1c7c03360d8b",
+        "parent_name": "Other Specimen",
+        "set_members": [
+            {
+                "uuid": "163628AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "voluntary testing and counselling panel",
+                "retired": false
+            },
+            {
+                "uuid": "167405AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Presence of gram-positive bacilli in gram stain",
+                "retired": false
+            },
+            {
+                "uuid": "167403AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "name": "Presence of gram-positive cocci on gram stain",
+                "retired": false
+            }
+        ]
+    }
+}
