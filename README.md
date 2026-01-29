@@ -27,32 +27,64 @@ Es kombiniert OpenMRS (Patientenakten), OpenELIS (Labormanagement) und Bahmni (U
 
 ## ⚙️ Installation & Setup
 
-Dieses Repository enthält die Konfiguration, die mit den offiziellen Bahmni-Docker-Containern genutzt wird.
+Dieses Setup nutzt die offizielle Bahmni-Distribution, ersetzt jedoch die Standard-Konfiguration durch die studiKIS-Inhalte.
 
-1.  **Repository klonen:**
-    ```bash
-    git clone [https://github.com/IMI-HD/studiKIS.git](https://github.com/IMI-HD/studiKIS.git)
-    cd studiKIS
-    ```
+### 1. Repositories klonen
+Klonen Sie das Bahmni-Basis-Repo und dieses Konfigurations-Repo:
 
-2.  **Bahmni Docker Setup vorbereiten:**
-    Nutzen Sie das offizielle [Bahmni Docker Repository](https://github.com/Bahmni/bahmni-docker) oder Ihre bestehende `docker-compose.yml`.
+```bash
+# Bahmni Docker Basis
+git clone https://github.com/Bahmni/bahmni-docker.git
+cd bahmni-docker/bahmni-standard
 
-3.  **Config-Pfad anpassen:**
-    Um die studiKIS-Konfiguration zu laden, muss der Pfad im `docker-compose.yml` File unter dem Service `bahmni-standard-config` (oder dem entsprechenden Web-Container) auf das lokale Verzeichnis gemappt werden:
+# studiKIS Konfiguration (dieses Repo)
+git clone https://github.com/IMI-HD/studiKIS.git
+```
 
-    ```yaml
-    services:
-      bahmni-web:
-        volumes:
-          - ./standard-config:/var/www/bahmni_config:ro
-    ```
-    *(Hinweis: Der genaue Pfad kann je nach genutzter Bahmni-Version und Compose-Struktur leicht variieren.)*
+### 2. Bahmni-Config Service deaktivieren
+Um die lokale Konfiguration nutzen zu können, muss der Standard-Config-Service in der `docker-compose.yml` auskommentiert werden:
 
-4.  **Container starten:**
-    ```bash
-    docker-compose up -d
-    ```
+```yaml
+# In der docker-compose.yml folgende Zeilen auskommentieren:
+# bahmni-config:
+#   image: 'bahmni/standard-config:${CONFIG_IMAGE_TAG:?}'
+#   volumes:
+#     - '${CONFIG_VOLUME:?}:/usr/local/bahmni_config'
+#   logging: *log-config
+#   restart: ${RESTART_POLICY}
+```
+
+### 3. Umgebungsvariablen (.env) anpassen
+Öffnen Sie die Datei `.env` im Verzeichnis `bahmni-standard` und führen Sie folgende Änderungen durch:
+
+1. **Profile aktivieren:**
+   ```bash
+   COMPOSE_PROFILES=bahmni-standard,metabase
+   ```
+
+2. **Pfad zur studiKIS-Config hinterlegen:**
+   Hinterlegen Sie bei `CONFIG_VOLUME` den Pfad zum `standard-config` Ordner aus dem geklonten studiKIS-Repo:
+   ```bash
+   # Bahmni Config Environment Variables
+   CONFIG_IMAGE_TAG=1.0.0
+   CONFIG_VOLUME=./studiKIS/standard-config
+   ```
+
+### 4. System starten
+```bash
+# Images herunterladen
+docker compose pull
+
+# Bahmni starten
+docker compose up -d
+```
+
+### 5. Odoo 16 Berechtigungen fixen
+Führen Sie diesen Befehl beim ersten Start aus, um den "Permission Denied" Fehler im Odoo-Filestore zu beheben:
+
+```bash
+docker compose exec -it --user root odoo chown -R odoo:odoo /var/lib/odoo/filestore && docker compose restart odoo
+```
 
 ## 📖 Dokumentation
 Detaillierte Anleitungen, Architekturübersichten und Hilfestellungen finden Sie in unserem Wiki:
